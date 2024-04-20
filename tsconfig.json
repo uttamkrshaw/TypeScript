@@ -1,0 +1,16 @@
+{
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "build"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "build",
+        "target": "es2017",
+        "declaration": true,
+        "sourceMap": true
+    }
+}
